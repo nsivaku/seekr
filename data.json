@@ -1,0 +1,46 @@
+{
+  "images": [
+    {
+      "src": "/airpod6.jpg",
+      "alt": "Image 1",
+      "title": "Right airpod",
+      "description": "$19 fortnite card"
+    },
+    {
+      "src": "/airpod6.jpg",
+      "alt": "Image 2",
+      "title": "Right airpod",
+      "description": "$19 fortnite card"
+    },
+    {
+      "src": "/pfp.jpg",
+      "alt": "Image 3",
+      "title": "Right airpod",
+      "description": "$19 fortnite card"
+    },
+    {
+      "src": "/pfp.jpg",
+      "alt": "Image 3",
+      "title": "Right airpod",
+      "description": "$19 fortnite card"
+    },
+    {
+      "src": "/airpod6.jpg",
+      "alt": "Image 3",
+      "title": "Right airpod",
+      "description": "$19 fortnite card"
+    },
+    {
+      "src": "/pfp.jpg",
+      "alt": "Image 3",
+      "title": "Right airpod",
+      "description": "$19 fortnite card"
+    },
+    {
+      "src": "/pfp.jpg",
+      "alt": "Image 3",
+      "title": "Right airpod",
+      "description": "$19 fortnite card"
+    }
+  ]
+}
