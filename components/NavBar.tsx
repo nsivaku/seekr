@@ -16,6 +16,7 @@ export default function NavBar() {
         <li><Link href="./lost">Lost</Link></li>
         <li><Link href="./found">Found</Link></li>
         <li><Link href="./upload">Upload</Link></li>
+        <li><Link href="./leaderboard">Leaderboard</Link></li>
       </ul>
     </div>
     <a className="btn btn-ghost normal-case text-xl">Seekr</a>
@@ -25,6 +26,7 @@ export default function NavBar() {
       <li><Link href="./lost">Lost</Link></li>
       <li><Link href="./found">Found</Link></li>
       <li><Link href="./upload">Upload</Link></li>
+      <li><Link href="./leaderboard">Leaderboard</Link></li>
     </ul>
   </div>
   <div className="navbar-end">
