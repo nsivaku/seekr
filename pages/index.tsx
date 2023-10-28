@@ -25,12 +25,11 @@ export default function Home() {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button</a>
   </div>
   <div className="dropdown dropdown-end">
       <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-full">
-          <Image src="/public/pfp.jpg" alt="" width="32" height="32"/>
+          <Image src="/pfp.jpg" alt="" width="32" height="32"/>
         </div>
       </label>
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
