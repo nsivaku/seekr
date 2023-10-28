@@ -17,7 +17,7 @@ export default function Home() {
         <li><Link href="./leaderboard">Leaderboard</Link></li>
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case text-xl"> <Link href="./">Seekr</Link> </a>
+    <a className="btn btn-ghost normal-case text-xl">Seekr</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
