@@ -1,6 +1,6 @@
 
 import React, {useState} from "react";
-
+import Home from "../components/NavBar"
 export default function Leaderboard() {
     const [lost, setLost] = useState(true);
     const [activeTab, setActiveTab] = useState('lost')
@@ -12,9 +12,7 @@ export default function Leaderboard() {
 
     return (
         <div>
-            <div>
-                <h1>Leaderboard</h1>
-            </div>
+            <Home />
             <div className="tabs tabs-boxed">
                 <button className="tab tab-active=false" onClick={() => handleLostTabClick()}>Lost</button> 
                 <button className="tab tab-active" onClick={() => setLost(false)}>Found</button> 
