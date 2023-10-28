@@ -4,6 +4,9 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <h1>seekr</h1>
+  <div className="navbar bg-base-100">
+    <a className="btn btn-ghost normal-case text-xl">Seekr</a>
+    <a>center</a>
+  </div>
   )
 }
