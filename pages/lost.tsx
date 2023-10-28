@@ -1,7 +1,7 @@
 import React from "react";
 import Tile from "../components/tile";
 import data from "../data.json";
-import Home from "../components/NavBar"
+import NavBar from "../components/NavBar";
 interface BoardProps {
   rows: number;
   cols: number;
@@ -10,7 +10,7 @@ interface BoardProps {
 const Board: React.FC<BoardProps> = ({ rows, cols }) => {
   return (
     <div>
-      <Home />
+      <NavBar />
       <div className="board">
       <div className="grid grid-cols-3 gap-4 ">
         {data.images.map((tileData, j) => (

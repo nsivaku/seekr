@@ -1,8 +1,9 @@
-import Home from "../components/NavBar"
+import NavBar from "../components/NavBar";
+
 export default function Found() {
     return (
         <div>
-            <Home />
+            <NavBar />
             <p>found page</p>
         </div>
     );
