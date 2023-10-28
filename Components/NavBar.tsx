@@ -22,6 +22,7 @@ export default function Home() {
     <ul className="menu menu-horizontal px-1">
       <li><a>Lost</a></li>
       <li><a>Found</a></li>
+      <li><a>Leaderboard</a></li>
     </ul>
   </div>
   <div className="navbar-end">
