@@ -18,7 +18,7 @@ export default function Tile(props) {
             <h2 className="text-white">{props.title}</h2>
             <h4 className="font-extrabold text-white">Location</h4>
             <h4 className="text-gray-300">{props.location}</h4>
-            <h4 className="font-extrabold text-white">Found</h4>
+            <h4 className="font-extrabold text-white">{props.type}</h4>
             <h4 className="text-gray-300">{props.date}</h4>
             <h4 className="font-extrabold text-white">Phone</h4>
             <h4 className="text-gray-300">{props.phone}</h4>

@@ -57,6 +57,7 @@ const Board: React.FC<BoardProps> = ({ rows, cols }) => {
                   alt={tileData.alt}
                   date={tileData.date}
                   phone={tileData.phone}
+                  type="Found"
                 />
               ))}
             </div>
