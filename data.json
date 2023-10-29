@@ -2,45 +2,43 @@
   "images": [
     {
       "src": "/airpod6.jpg",
+      "location": "Sitterson Hall",
       "alt": "Image 1",
       "title": "Right airpod",
-      "description": "$19 fortnite card"
+      "date" : "10/28/2023",
+      "phone" : "111111111"
     },
     {
-      "src": "/airpod6.jpg",
-      "alt": "Image 2",
-      "title": "Right airpod",
-      "description": "$19 fortnite card"
+      "src": "/lost_wallet.png",
+      "location": "Hamilton Hall",
+      "alt": "Image 1",
+      "title": "Lost Wallet",
+      "date" : "10/21/2023",
+      "phone" : "111111111"
     },
     {
-      "src": "/pfp.jpg",
-      "alt": "Image 3",
-      "title": "Right airpod",
-      "description": "$19 fortnite card"
+      "src": "/snap_image_2.png",
+      "location": "Eringhaus Residence Hall",
+      "alt": "Image 1",
+      "title": "Credit Card",
+      "date" : "10/28/2023",
+      "phone" : "111111111"
     },
     {
-      "src": "/pfp.jpg",
-      "alt": "Image 3",
-      "title": "Right airpod",
-      "description": "$19 fortnite card"
+      "src": "/snap_image_1.png",
+      "location": "Koury Residence Hall",
+      "alt": "Image 1",
+      "title": "Keys",
+      "date" : "10/28/2023",
+      "phone" : "111111111"
     },
     {
-      "src": "/airpod6.jpg",
-      "alt": "Image 3",
-      "title": "Right airpod",
-      "description": "$19 fortnite card"
-    },
-    {
-      "src": "/pfp.jpg",
-      "alt": "Image 3",
-      "title": "Right airpod",
-      "description": "$19 fortnite card"
-    },
-    {
-      "src": "/pfp.jpg",
-      "alt": "Image 3",
-      "title": "Right airpod",
-      "description": "$19 fortnite card"
+      "src": "/airpods2.jpg",
+      "location": "Davis Library",
+      "alt": "Image 1",
+      "title": "Airpods with case",
+      "date" : "10/28/2023",
+      "phone" : "111111111"
     }
   ]
 }
