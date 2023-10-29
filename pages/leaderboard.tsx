@@ -1,6 +1,7 @@
 
 import React, {useState} from "react";
 import NavBar from "../components/NavBar"
+
 export default function Leaderboard() {
     // const [lost, setLost] = useState(true);
     // const [activeTab, setActiveTab] = useState('lost')
@@ -56,7 +57,7 @@ export default function Leaderboard() {
                         </table>
                     </div>
                 </center>
-                
+
                 <div className="h-10 bg-opacity-0"></div>
 
                 <div className="prose float-left">
