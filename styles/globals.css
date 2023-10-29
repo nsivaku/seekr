@@ -30,6 +30,7 @@ body {
 
 @layer components {
   .blinking-cursor:after {
+    color: rgb(var(--foreground-rgb));
     content: "|";
     animation: blink 1s step-start infinite;
   }

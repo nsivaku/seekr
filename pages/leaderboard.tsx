@@ -11,52 +11,53 @@ export default function Leaderboard() {
     return (
         <div>
             <NavBar />
-            <div>
-                <h1>Most Frequently Lost</h1>
+            
+            
+            <div className="container mx-auto w-3/4 my-8 " style={{minHeight:'100vh'}}>
+                <div className="prose float-left">
+                        <h2>Most Frequently Lost</h2>
+                </div>
+                <center>
+                    <div className="w-3/4 float-center">
+                        <table className="table w-full">
+                        <thead>
+                            <tr>
+                            <th>Rank</th>
+                            <th>Name</th>
+                            <th># Instances Lost</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {/* row 1 */}
+                            <tr>
+                            <th>1</th>
+                            <td>AirPod(s)</td>
+                            <td>3</td>
+                            </tr>
+                            {/* row 2 */}
+                            <tr>
+                            <th>2</th>
+                            <td>Wallets/Cards</td>
+                            <td>3</td>
+                            </tr>
+                            {/* row 3 */}
+                            <tr>
+                            <th>3</th>
+                            <td>Keys/Fobs</td>
+                            <td>2</td>
+                            </tr>
+                            <tr>
+                            <th>4</th>
+                            <td>Water Bottle</td>
+                            {/* <td>Tax Accountant</td> */}
+                            <td>1</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    </div>
+                </center>
             </div>
-            <div>
-                <table className="table table-zebra">
-                <thead>
-                    <tr>
-                    <th>Rank</th>
-                    <th>Name</th>
-                    <th># Instances Lost</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {/* row 1 */}
-                    <tr>
-                    <th>1</th>
-                    <td>AirPod(s)</td>
-                    <td>16</td>
-                    </tr>
-                    {/* row 2 */}
-                    <tr>
-                    <th>2</th>
-                    <td>Keys/Fobs</td>
-                    <td>12</td>
-                    </tr>
-                    {/* row 3 */}
-                    <tr>
-                    <th>3</th>
-                    <td>Water Bottles</td>
-                    <td>11</td>
-                    </tr>
-                    <tr>
-                    <th>4</th>
-                    <td>Wallets/Cards</td>
-                    {/* <td>Tax Accountant</td> */}
-                    <td>10</td>
-                    </tr>
-                    <tr>
-                    <th>5</th>
-                    <td>Chargers</td>
-                    {/* <td>Tax Accountant</td> */}
-                    <td>8</td>
-                    </tr>
-                </tbody>
-                </table>
-            </div>
+            
         </div>
 
     );
