@@ -3,50 +3,17 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1386.1 1398.1" style="enable-background:new 0 0 1386.1 1398.1;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
-	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_00000087413849434322453390000010883115411543461520_);}
-	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_00000039108444122908882360000007355229624040933525_);}
-	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_00000008118832783250089500000007190153831696021637_);}
-	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_00000183232456716171606260000007527704690737769357_);}
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
 </style>
 <g>
-	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="314.5" x2="629" y2="314.5">
-		<stop  offset="0.1077" style="stop-color:#FFFFFF;stop-opacity:0"/>
-		<stop  offset="1" style="stop-color:#FFFFFF"/>
-	</linearGradient>
 	<path class="st0" d="M149.6,557.8c24.5-98.7,75.7-188.8,147.5-260.7C369,225.2,459,174,557.8,149.6l27.8-6.9L629,0l-84.1,18.4
 		C416,46.6,298,111.4,204.7,204.7S46.6,415.9,18.4,544.9L0,629l142.7-43.4L149.6,557.8z"/>
-	
-		<linearGradient id="SVGID_00000068650906157318055930000001463896983490163372_" gradientUnits="userSpaceOnUse" x1="757" y1="314.5" x2="1386" y2="314.5">
-		<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
-		<stop  offset="0" style="stop-color:#FFFFFF"/>
-	</linearGradient>
-	<path style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_00000068650906157318055930000001463896983490163372_);" d="
-		M828.2,149.6c98.7,24.5,188.8,75.7,260.7,147.5C1160.8,369,1212,459,1236.4,557.8l6.9,27.8L1386,629l-18.4-84.1
-		c-28.2-128.9-93-246.9-186.3-340.2S970.1,46.6,841.1,18.4L757,0l43.4,142.7L828.2,149.6z"/>
-	
-		<linearGradient id="SVGID_00000048488962195755619320000007856036463761682320_" gradientUnits="userSpaceOnUse" x1="0" y1="1071.5" x2="629" y2="1071.5">
-		<stop  offset="9.166487e-02" style="stop-color:#FFFFFF;stop-opacity:0"/>
-		<stop  offset="1" style="stop-color:#FFFFFF"/>
-	</linearGradient>
-	<path style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_00000048488962195755619320000007856036463761682320_);" d="
-		M557.8,1236.4c-98.7-24.5-188.8-75.6-260.7-147.5S174,927,149.6,828.2l-6.9-27.8L0,757l18.4,84.2c28.2,128.9,93,246.9,186.3,340.2
-		s211.2,158.1,340.2,186.3L629,1386l-43.4-142.7L557.8,1236.4z"/>
-	
-		<linearGradient id="SVGID_00000010283026576942244580000006741068057435397562_" gradientUnits="userSpaceOnUse" x1="757" y1="1071.45" x2="1386.1001" y2="1071.45">
-		<stop  offset="0" style="stop-color:#FFFFFF"/>
-		<stop  offset="1" style="stop-color:#FFFFFF"/>
-	</linearGradient>
-	<path style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_00000010283026576942244580000006741068057435397562_);" d="
-		M1236.4,828.2c-24.5,98.7-75.6,188.8-147.5,260.7S927,1212,828.2,1236.4l-27.8,6.9L757,1386l84.2-18.4
+	<path class="st0" d="M828.2,149.6c98.7,24.5,188.8,75.7,260.7,147.5C1160.8,369,1212,459,1236.4,557.8l6.9,27.8L1386,629
+		l-18.4-84.1c-28.2-128.9-93-246.9-186.3-340.2S970.1,46.6,841.1,18.4L757,0l43.4,142.7L828.2,149.6z"/>
+	<path class="st0" d="M557.8,1236.4c-98.7-24.5-188.8-75.6-260.7-147.5S174,927,149.6,828.2l-6.9-27.8L0,757l18.4,84.2
+		c28.2,128.9,93,246.9,186.3,340.2s211.2,158.1,340.2,186.3L629,1386l-43.4-142.7L557.8,1236.4z"/>
+	<path class="st0" d="M1236.4,828.2c-24.5,98.7-75.6,188.8-147.5,260.7S927,1212,828.2,1236.4l-27.8,6.9L757,1386l84.2-18.4
 		c128.9-28.2,246.9-93,340.2-186.3s158.1-211.2,186.3-340.2l18.4-84.2l-142.7,43.4L1236.4,828.2z"/>
-	
-		<linearGradient id="SVGID_00000099644419129166243900000010847551010140564922_" gradientUnits="userSpaceOnUse" x1="292.5" y1="754.95" x2="964.3" y2="754.95">
-		<stop  offset="9.003964e-07" style="stop-color:#FFFFFF;stop-opacity:0"/>
-		<stop  offset="0.6575" style="stop-color:#FFFFFF"/>
-	</linearGradient>
-	
-		<polygon style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_00000099644419129166243900000010847551010140564922_);" points="
-		292.5,667.8 600.5,782.8 715.6,1090.9 964.3,419 	"/>
+	<polygon class="st0" points="292.5,667.8 600.5,782.8 715.6,1090.9 964.3,419 	"/>
 </g>
 </svg>

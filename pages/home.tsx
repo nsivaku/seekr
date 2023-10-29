@@ -22,6 +22,10 @@ export default function HomePage() {
       // Disable scrolling when the component mounts
       document.body.style.overflow = "hidden";
       document.documentElement.style.overflow = "hidden";
+      return () => {
+        document.body.style.overflow = "auto";
+        document.documentElement.style.overflow = "auto";
+      };
     }
     switch (phase) {
       case Phase.Typing: {
@@ -72,7 +76,7 @@ export default function HomePage() {
     >
       <img
         className="backdrop-opacity-0 absolute"
-        src="/compass-white.svg"
+        src="/compass-fade.svg"
         alt="compass"
         style={{ left: "40%" }}
       />
