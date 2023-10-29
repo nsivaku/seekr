@@ -63,8 +63,8 @@ export default function HomePage() {
   return (
     <div>
       <h2 className="flex flex-col lg:block text-center text-4xl font-bold text-gray-900">
-        <span className="mb-2 lg:mb-0">Lost Your</span>{" "}
-        <span className="text-blue-600 blinking-cursor">{lostItem}</span>?
+        <span className="mb-2 lg:mb-0 text-primary">Lost Your</span>{" "}
+        <span className="text-blue-600 blinking-cursor text-secondary">{lostItem + "?"}</span>
       </h2>
     </div>
   );
