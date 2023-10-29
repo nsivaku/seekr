@@ -62,9 +62,9 @@ export default function HomePage() {
   }, [phase, lostItem, selectedIndex]);
   return (
     <div>
-      <h2 className="flex flex-col lg:block text-center text-4xl font-bold text-primary">
+      <h2 className="flex flex-col lg:block text-center text-4xl font-bold new-primary">
         <span className="mb-2 lg:mb-0">Lost Your</span>{" "}
-        <span className="text-blue-600 blinking-cursor text-secondary">
+        <span className="text-blue-600 blinking-cursor new-secondary">
           {lostItem}
         </span>
         ?

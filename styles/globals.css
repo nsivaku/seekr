@@ -6,6 +6,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --carolina-blue: 75, 156, 211;
+  --dook-blue: 0, 0, 156;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,6 +32,12 @@ body {
   .blinking-cursor:after {
     content: "|";
     animation: blink 1s step-start infinite;
+  }
+  .new-primary {
+    color: rgb(var(--carolina-blue));
+  }
+  .new-secondary {
+    color: rgb(var(--dook-blue));
   }
 
   @keyframes blink {
