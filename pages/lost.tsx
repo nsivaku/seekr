@@ -11,19 +11,30 @@ const Board: React.FC<BoardProps> = ({ rows, cols }) => {
   return (
     <div>
       <NavBar />
-      <div className="board">
-      <div className="grid grid-cols-3 gap-4 ">
-        {data.images.map((tileData, j) => (
-          <Tile
-            key={j}
-            src={tileData.src}
-            title={tileData.title}
-            alt={tileData.alt}
-            description={tileData.description}
-          />
-        ))}
+      <div className="container mx-auto p-6">
+        <div className="prose my-3">
+          <h1 className="text-white">
+            Lost Items
+          </h1>
+        </div>
+        <div className="container mx-auto" style={{marginTop:"50px"}}>
+          <div className="board">
+            <div className="grid grid-cols-3 gap-4 ">
+              {data.images.map((tileData, j) => (
+                <Tile
+                  key={j}
+                  src={tileData.src}
+                  title={tileData.title}
+                  location={tileData.location}
+                  alt={tileData.alt}
+                  date={tileData.date}
+                  phone={tileData.phone}
+                />
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
     </div>
   );
 };
