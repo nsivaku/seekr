@@ -1,13 +1,41 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Tile from "../components/tile";
 import data from "../data2.json";
 import NavBar from "../components/NavBar";
+import { db } from "@/firebase-config";
+import { collection, getDocs } from "firebase/firestore";
 interface BoardProps {
   rows: number;
   cols: number;
 }
 
 const Board: React.FC<BoardProps> = ({ rows, cols }) => {
+
+  const [itemData, setItemData] = useState(data);
+  const [newItems, setNewItems] = useState<any[]>([]);
+
+  async function getLostInfo() {
+    const items: any[] = [];
+  
+    try {
+      const lostRef = collection(db, "lost");
+      const querySnapshot = await getDocs(lostRef);
+      querySnapshot.forEach((doc) => {
+        items.push(doc.data());
+      });
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
+    setNewItems(items);
+  }
+  
+  useEffect(() => { 
+    const originalData = {...itemData}
+    getLostInfo()
+    originalData['images'] = originalData['images'].concat(newItems)
+    setItemData(originalData);
+  } , []);
+
   return (
     <div>
       <NavBar />
@@ -29,6 +57,7 @@ const Board: React.FC<BoardProps> = ({ rows, cols }) => {
                   alt={tileData.alt}
                   date={tileData.date}
                   phone={tileData.phone}
+                  type="Found"
                 />
               ))}
             </div>
