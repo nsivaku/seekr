@@ -39,6 +39,46 @@
       "title": "Airpods with case",
       "date" : "10/28/2023",
       "phone" : "111111111"
+    },
+    {
+      "src": "/lost_airpod.png",
+      "location": "Morrison Residence Hall",
+      "alt": "Image 1",
+      "title": "Airpods with case",
+      "date" : "10/28/2023",
+      "phone" : "111111111"
+    },
+    {
+      "src": "/lost_keys.png",
+      "location": "Hinton James Residence Hall",
+      "alt": "Image 1",
+      "title": "Keys",
+      "date" : "10/28/2023",
+      "phone" : "111111111"
+    },
+    {
+      "src": "/lost_wallet_2.png",
+      "location": "Carmichael Residence Hall",
+      "alt": "Image 1",
+      "title": "Wallet",
+      "date" : "10/28/2023",
+      "phone" : "111111111"
+    },
+    {
+      "src": "/lost_phone.png",
+      "location": "Eringhaus Residence Hall",
+      "alt": "Image 1",
+      "title": "Wallet",
+      "date" : "10/28/2023",
+      "phone" : "111111111"
+    },
+    {
+      "src": "/lost_water_bottle.png",
+      "location": "Hinton James Residence Hall",
+      "alt": "Image 1",
+      "title": "Water Bottle",
+      "date" : "10/28/2023",
+      "phone" : "111111111"
     }
   ]
 }
