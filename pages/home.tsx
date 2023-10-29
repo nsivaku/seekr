@@ -16,15 +16,6 @@ export default function HomePage() {
   const [phase, setPhase] = useState(Phase.Typing);
   const [lostItem, setLostItem] = useState("");
   const [selectedIndex, setSelectedIndex] = useState(0);
-  const [isDarkMode, setIsDarkMode] = useState(false);
-  useEffect(() => {
-    // Check if the user has a dark mode preference
-    const prefersDarkMode =
-      window.matchMedia &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-    setIsDarkMode(prefersDarkMode);
-  }, []);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -75,7 +66,10 @@ export default function HomePage() {
     }
   }, [phase, lostItem, selectedIndex]);
   return (
-    <div className="bg-opacity-0 overflow-hidden">
+    <div
+      className="bg-opacity-0 overflow-hidden"
+      style={{ minHeight: "100vh" }}
+    >
       <img
         className="backdrop-opacity-0 absolute"
         src="/compass-white.svg"
