@@ -38,11 +38,12 @@ export default function NavBar() {
               <li>
                 <Link href="./upload">Upload</Link>
               </li>
+              <li>
+                <Link href="./leaderboard">Leaderboard</Link>
+              </li>
             </ul>
           </div>
-          <Link href="./">
-            <div className="btn btn-ghost normal-case text-xl">Seekr</div>
-          </Link>
+          <a className="btn btn-ghost normal-case text-xl">Seekr</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -54,6 +55,9 @@ export default function NavBar() {
             </li>
             <li>
               <Link href="./upload">Upload</Link>
+            </li>
+            <li>
+              <Link href="./leaderboard">Leaderboard</Link>
             </li>
           </ul>
         </div>
