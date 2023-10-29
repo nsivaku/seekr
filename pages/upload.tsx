@@ -71,7 +71,14 @@ export default function Leaderboard() {
           <br />
           <button className="btn btn-secondary">Submit</button>
         </div>
-        <Image src="/compass-white.svg" className="w-4/5 h-4/5 mx-auto" alt="" width={450} height={450} style={{marginLeft:"-20px"}}></Image>
+        <Image
+          src="/compass-white.svg"
+          className="w-4/5 h-4/5 mx-auto brightness-75"
+          alt=""
+          width={450}
+          height={450}
+          style={{ marginLeft: "-20px" }}
+        ></Image>
       </div>
     </div>
   );
