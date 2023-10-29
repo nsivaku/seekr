@@ -6,7 +6,7 @@
       "alt": "Image 1",
       "title": "Keys",
       "date" : "10/28/2023",
-      "phone" : "111111111"
+      "phone" : "111-111-1111"
     },
     {
       "src": "/snap_image_2.png",
@@ -14,7 +14,7 @@
       "alt": "Image 1",
       "title": "Credit Card",
       "date" : "10/28/2023",
-      "phone" : "111111111"
+      "phone" : "111-111-1111"
     },
     {
       "src": "/snap_image_1.png",
@@ -22,7 +22,7 @@
       "alt": "Image 1",
       "title": "Keys",
       "date" : "10/28/2023",
-      "phone" : "111111111"
+      "phone" : "111-111-1111"
     },
     {
       "src": "/lost_phone.png",
@@ -30,7 +30,7 @@
       "alt": "Image 1",
       "title": "Wallet",
       "date" : "10/28/2023",
-      "phone" : "111111111"
+      "phone" : "111-111-1111"
     },
     {
       "src": "/airpods2.jpg",
@@ -38,7 +38,7 @@
       "alt": "Image 1",
       "title": "Airpods with case",
       "date" : "10/28/2023",
-      "phone" : "111111111"
+      "phone" : "111-111-1111"
     },
     {
       "src": "/lost_airpod.png",
@@ -46,15 +46,15 @@
       "alt": "Image 1",
       "title": "Airpods with case",
       "date" : "10/28/2023",
-      "phone" : "111111111"
+      "phone" : "111-111-1111"
     },
     {
       "src": "/airpod6.jpg",
       "location": "Sitterson Hall",
       "alt": "Image 1",
-      "title": "Right airpod",
+      "title": "Airpods",
       "date" : "10/28/2023",
-      "phone" : "111111111"
+      "phone" : "111-111-1111"
     },
     {
       "src": "/lost_wallet_2.png",
@@ -62,7 +62,7 @@
       "alt": "Image 1",
       "title": "Wallet",
       "date" : "10/28/2023",
-      "phone" : "111111111"
+      "phone" : "111-111-1111"
     },
     {
       "src": "/lost_water_bottle.png",
@@ -70,7 +70,7 @@
       "alt": "Image 1",
       "title": "Water Bottle",
       "date" : "10/28/2023",
-      "phone" : "111111111"
+      "phone" : "111-111-1111"
     },
     {
       "src": "/lost_wallet.png",
@@ -78,7 +78,7 @@
       "alt": "Image 1",
       "title": "Lost Wallet",
       "date" : "10/21/2023",
-      "phone" : "111111111"
+      "phone" : "111-111-1111"
     }
   ]
 }

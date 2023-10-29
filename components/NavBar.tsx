@@ -44,8 +44,7 @@ export default function NavBar() {
             </ul>
           </div>
           <Link href={"./"}>
-            {" "}
-            <div className="btn btn-ghost normal-case text-xl">Seekr</div>{" "}
+            <div className="btn btn-ghost normal-case text-xl inline m-0">Seekr</div>{" "}
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -65,6 +64,9 @@ export default function NavBar() {
           </ul>
         </div>
         <div className="navbar-end"></div>
+        <Link href={"./"}>
+          <img src="/compass-white.svg" alt="logo" width={50} height={50} />
+        </Link>
       </div>
     </div>
   );

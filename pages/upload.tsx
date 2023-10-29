@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import NavBar from "../components/NavBar";
 import { storage } from "../firebase-config";
+import Image from "next/image";
 
 export default function Leaderboard() {
   const [lost, setLost] = useState(true);
@@ -12,11 +13,11 @@ export default function Leaderboard() {
     <div>
       <NavBar />
       <div
-        className="container mx-auto px-4"
-        style={{ marginTop: "40px", minHeight: "100vh" }}
+        className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2"
+        style={{ marginTop: "15px", minHeight: "100vh" }}
       >
-        <div className="prose">
-          <h2>Submit an Item</h2>
+        <div className="ml-8 prose">
+          <h2 className="mb-4">Submit an Item</h2>
           <h4>Type</h4>
           <div className="btn btn-group" style={{ padding: "0", margin: "0" }}>
             <a
@@ -54,6 +55,13 @@ export default function Leaderboard() {
             className="input input-bordered input-primary w-full max-w-xs"
           />
 
+          <h4>Phone Number</h4>
+          <input
+            type="phone"
+            placeholder="123-456-7890"
+            className="input input-bordered input-primary w-full max-w-xs"
+          />
+
           <h4>Image Upload</h4>
           <input
             type="file"
@@ -63,6 +71,7 @@ export default function Leaderboard() {
           <br />
           <button className="btn btn-secondary">Submit</button>
         </div>
+        <Image src="/compass-white.svg" className="w-4/5 h-4/5 mx-auto" alt="" width={450} height={450} style={{marginLeft:"-20px"}}></Image>
       </div>
     </div>
   );

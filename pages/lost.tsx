@@ -18,7 +18,7 @@ const Board: React.FC<BoardProps> = ({ rows, cols }) => {
         </div>
         <div className="container mx-auto" style={{ marginTop: "50px" }}>
           <div className="board">
-            <div className="grid grid-cols-3 gap-4 ">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 ">
               {data.images.map((tileData, j) => (
                 <Tile
                   key={j}

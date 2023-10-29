@@ -104,7 +104,7 @@ export default function HomePage() {
         </center>
         <div className="h-10 bg-opacity-0"></div>
         <div className="flex items-center justify-center bg-opacity-0">
-          <Link href="/lost" className="btn glass w-1/4 h-1/3 bg-opacity-0"> Start Seeking </Link>
+          <Link href="/lost" className="btn btn-primary glass w-1/4 h-1/3"> Start Seeking </Link>
         </div>
       </div>
     </div>
