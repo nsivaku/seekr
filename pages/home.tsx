@@ -1,5 +1,5 @@
 import next from "next";
-import React from "react";
+import React, { use } from "react";
 import { useState, useEffect } from "react";
 
 const lostItems = ["Airpods", "Wallet", "Keys", "Phone", "Water Bottles"];
@@ -16,17 +16,19 @@ export default function HomePage() {
   const [phase, setPhase] = useState(Phase.Typing);
   const [lostItem, setLostItem] = useState("");
   const [selectedIndex, setSelectedIndex] = useState(0);
-
   useEffect(() => {
     if (typeof window !== "undefined") {
       // Disable scrolling when the component mounts
       document.body.style.overflow = "hidden";
       document.documentElement.style.overflow = "hidden";
-      return () => {
-        document.body.style.overflow = "auto";
-        document.documentElement.style.overflow = "auto";
-      };
     }
+    return () => {
+      // Enable scrolling when component unmounts
+      document.body.style.overflow = "unset";
+      document.documentElement.style.overflow = "unset";
+    };
+  });
+  useEffect(() => {
     switch (phase) {
       case Phase.Typing: {
         const nextTypedItem = lostItems[selectedIndex].slice(
