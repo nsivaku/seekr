@@ -92,7 +92,7 @@ export default function HomePage() {
         <span className="text-blue-600 blinking-cursor new-secondary italic bg-opacity-0 relative">
           {lostItem}
         </span>
-        ?
+        <span className="mb-2 lg:mb-0 bg-opacity-0 relative">?</span>
       </h2>
     </div>
   );
