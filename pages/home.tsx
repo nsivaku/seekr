@@ -8,16 +8,30 @@ enum Phase {
   Pausing,
   Deleting,
 }
-const TYPING_DELAY = 100;
-const PAUSING_DELAY = 300;
-const DELETING_DELAY = 50;
+const TYPING_DELAY = 300;
+const PAUSING_DELAY = 500;
+const DELETING_DELAY = 100;
 
 export default function HomePage() {
   const [phase, setPhase] = useState(Phase.Typing);
   const [lostItem, setLostItem] = useState("");
   const [selectedIndex, setSelectedIndex] = useState(0);
+  const [isDarkMode, setIsDarkMode] = useState(false);
+  useEffect(() => {
+    // Check if the user has a dark mode preference
+    const prefersDarkMode =
+      window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+    setIsDarkMode(prefersDarkMode);
+  }, []);
 
   useEffect(() => {
+    if (typeof window !== "undefined") {
+      // Disable scrolling when the component mounts
+      document.body.style.overflow = "hidden";
+      document.documentElement.style.overflow = "hidden";
+    }
     switch (phase) {
       case Phase.Typing: {
         const nextTypedItem = lostItems[selectedIndex].slice(
@@ -61,10 +75,21 @@ export default function HomePage() {
     }
   }, [phase, lostItem, selectedIndex]);
   return (
-    <div>
-      <h2 className="flex flex-col lg:block text-center text-4xl font-bold new-primary">
-        <span className="mb-2 lg:mb-0">Lost Your</span>{" "}
-        <span className="text-blue-600 blinking-cursor new-secondary">
+    <div className="bg-opacity-0 overflow-hidden">
+      <img
+        className="backdrop-opacity-0 absolute"
+        src="/compass-white.svg"
+        alt="compass"
+        style={{ left: "40%" }}
+      />
+      <div className="h-10 bg-opacity-0"></div>
+      <div className="flex items-center justify-center bg-opacity-0">
+        <button className="btn glass w-1/4 h-1/3 bg-opacity-0"> Seek </button>
+      </div>
+      <div className="h-10 bg-opacity-0"></div>
+      <h2 className="flex flex-col lg:block text-center text-4xl font-bold new-primary bg-opacity-0">
+        <span className="mb-2 lg:mb-0 bg-opacity-0 relative">Lost Your</span>{" "}
+        <span className="text-blue-600 blinking-cursor new-secondary italic bg-opacity-0 relative">
           {lostItem}
         </span>
         ?
